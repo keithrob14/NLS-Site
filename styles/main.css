@@ -42,3 +42,11 @@ footer {
     font-family: "Open Sans Condensed";
     font-weight: 300;
 }
+
+body {
+    background-color: rgb(97, 97, 97);
+}
+
+p {
+    color: white;
+}

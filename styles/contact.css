@@ -34,6 +34,7 @@ form {
     padding-left: 1em;
     font-family: "Open Sans Condensed";
     font-weight: 300;
+    color: white;
 }
 
 main p {
@@ -42,6 +43,7 @@ main p {
     font-family: "Open Sans Condensed";
     font-weight: 600;
     font-size: 18px;
+    color: white;
 }
 
 div input {
