@@ -62,4 +62,33 @@ footer {
 
 div {
     column-width: 500px;
+    display: block;
+}
+
+p.title {
+    font-size: 30px;
+    padding-top: 15px;
+    color: ghostwhite;
+    font-family: "Josefin Sans";
+}
+
+.column-6 {
+    padding-top: 300px;
+}
+
+.w-col-6 {
+    width: 50%;
+}
+
+.w-col {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img.consult {
+    object-fit: initial;
 }
