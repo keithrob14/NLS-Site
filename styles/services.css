@@ -107,3 +107,12 @@ ul.servicelist {
 .column2 {
     height: 300px;
 }
+
+.flex-left {
+    width: 75%;
+    height: 100vh;
+}
+
+.flex-right {
+    width: 25%;
+}
