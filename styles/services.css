@@ -99,3 +99,11 @@ ul.servicelist {
     flex-basis: 100%;
     flex: 1;
 }
+
+.column1 {
+    height: 300px;
+}
+
+.column2 {
+    height: 300px;
+}
