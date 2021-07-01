@@ -91,6 +91,8 @@ ul.servicelist {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .column {
