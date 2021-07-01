@@ -13,6 +13,9 @@ body {
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
+    border-radius: 10px;
+    border-color: darkkhaki;
+    border-style: solid;
 }
 
 button.position-absolute {
@@ -39,7 +42,7 @@ header {
 }
 
 h1 {
-    margin-left: 20px;
+    margin-left: 50px;
     color: ghostwhite;
     font-family: "Josefin Sans";
     font-weight: 400;
@@ -66,29 +69,46 @@ div {
 }
 
 p.title {
-    font-size: 30px;
-    padding-top: 15px;
+    font-size: 50px;
+    padding-top: 30px;
     color: ghostwhite;
     font-family: "Josefin Sans";
 }
 
-.column-6 {
-    padding-top: 300px;
+ul.servicelist {
+    font-size: 25px;
+    padding-top: 15px;
+    color: ghostwhite;
+    font-family: "Josefin Sans";
+    font-weight: lighter;
+    line-height: 40px;
 }
 
-.w-col-6 {
-    width: 50%;
+.some-page-wrapper {
+    margin: 15px;
+    background-color: red;
 }
 
-.w-col {
-    position: relative;
-    float: left;
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
-    min-height: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
-img.consult {
-    object-fit: initial;
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.blue-column {
+    background-color: blue;
+    height: 100px;
+}
+
+.green-column {
+    background-color: green;
+    height: 100px;
 }
