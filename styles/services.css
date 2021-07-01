@@ -86,7 +86,6 @@ ul.servicelist {
 
 .some-page-wrapper {
     margin: 15px;
-    background-color: red;
 }
 
 .row {
@@ -103,12 +102,10 @@ ul.servicelist {
     flex: 1;
 }
 
-.blue-column {
-    background-color: blue;
+.column1 {
     height: 100px;
 }
 
-.green-column {
-    background-color: green;
+.column2 {
     height: 100px;
 }
