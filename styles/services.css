@@ -118,3 +118,7 @@ ul.servicelist {
 .flex-right {
     width: 25%;
 }
+
+footer.page-footer {
+    align-content: center;
+}
