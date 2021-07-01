@@ -63,13 +63,3 @@ footer {
 div {
     column-width: 500px;
 }
-
-div.column-7 w-col w-col-6 {
-    height: 500px;
-    width: 500px;
-}
-
-div.column-6 w-col w-col-6 {
-    height: 500px;
-    width: 500px;
-}
