@@ -1,5 +1,3 @@
-element.style {}
-
 body {
     font-family: 'DM Sans', sans-serif;
     color: #ffffff;
@@ -42,7 +40,7 @@ header {
 }
 
 h1 {
-    margin-left: 20px;
+    margin-left: 50px;
     color: ghostwhite;
     font-family: "Josefin Sans";
     font-weight: 400;
@@ -75,27 +73,6 @@ p.title {
     font-family: "Josefin Sans";
 }
 
-.column-6 {
-    padding-top: 300px;
-}
-
-.w-col-6 {
-    width: 50%;
-}
-
-.w-col {
-    position: relative;
-    float: left;
-    width: 100%;
-    min-height: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-img.consult {
-    object-fit: initial;
-}
-
 ul.servicelist {
     font-size: 25px;
     padding-top: 15px;
@@ -103,4 +80,39 @@ ul.servicelist {
     font-family: "Josefin Sans";
     font-weight: lighter;
     line-height: 40px;
+}
+
+.some-page-wrapper {
+    margin: 15px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.column1 {
+    height: 300px;
+}
+
+.column2 {
+    height: 300px;
+}
+
+.flex-left {
+    width: 75%;
+    height: 100vh;
+}
+
+.flex-right {
+    width: 25%;
 }
