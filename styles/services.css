@@ -63,3 +63,8 @@ footer {
 div {
     column-width: 500px;
 }
+
+img .servicepic {
+    height: auto;
+    width: 100%;
+}
