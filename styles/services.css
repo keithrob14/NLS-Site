@@ -93,27 +93,6 @@ ul.servicelist {
     width: 100%;
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}
-
-.column1 {
-    height: 300px;
-}
-
-.column2 {
-    height: 300px;
-}
-
-.flex-left {
-    width: 75%;
-    height: 100vh;
-}
-
-.flex-right {
-    width: 25%;
-    float: right;
+.col {
+    margin: 5px;
 }
