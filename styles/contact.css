@@ -8,25 +8,28 @@ nav {
     background-color: dimgrey;
     font-family: "Open Sans Condensed";
     font-weight: 300;
+    font-size: 20px;
 }
 
-nav div img {
+header h1 a.navbar-brand {
     margin-left: -15px;
-    margin-top: -35px;
-    position: absolute;
+    padding-top: 10px;
+    margin-right: 5px;
 }
 
 header {
     background-color: darkkhaki;
-    margin-bottom: -10px;
+    margin-bottom: 20px;
 }
 
 h1 {
-    margin-left: 20px;
+
     color: ghostwhite;
     font-family: "Josefin Sans";
     font-weight: 400;
-    font-size: 55px;
+    font-size: 45px;
+    margin-top: -10px;
+
 }
 
 /* CSS for Contact Page */
