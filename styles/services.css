@@ -30,7 +30,7 @@ nav {
 
 nav div img {
     margin-left: -15px;
-    margin-top: -35px;
+    margin-top: -25px;
     position: absolute;
 }
 
@@ -40,10 +40,11 @@ header {
 }
 
 h1 {
-    margin-left: 50px;
+    margin-left: 20px;
     color: ghostwhite;
     font-family: "Josefin Sans";
     font-weight: 400;
+    font-size: 55px;
 }
 
 main div p {
@@ -67,8 +68,9 @@ div {
 }
 
 p.title {
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 30px;
+    margin-bottom: 10px;
     color: ghostwhite;
     font-family: "Josefin Sans";
 }
@@ -91,8 +93,4 @@ ul.servicelist {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-}
-
-.col4 {
-    margin-right: 50px;
 }
