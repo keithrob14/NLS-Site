@@ -22,10 +22,11 @@ header {
 }
 
 h1 {
-    margin-left: 50px;
+    margin-left: 20px;
     color: ghostwhite;
     font-family: "Josefin Sans";
     font-weight: 400;
+    font-size: 55px;
 }
 
 main div p {
