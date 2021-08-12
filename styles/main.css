@@ -18,7 +18,7 @@ header h1 a.navbar-brand {
 
 header {
     background-color: darkkhaki;
-    padding-top: -10px;
+    margin-bottom: 20px;
 }
 
 h1 {
