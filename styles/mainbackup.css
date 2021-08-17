@@ -40,9 +40,7 @@ main div p {
     font-size: 21px;
     font-family: "Josefin Sans";
     font-weight: 300;
-    margin-top: 30px;
 }
-
 
 
 footer {
@@ -60,7 +58,7 @@ footer {
 }
 
 body {
-    background-color: rgb(97, 97, 97);
+    background-image: url(../images/Home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     min-height: calc(100vh - 50px);
@@ -68,4 +66,25 @@ body {
 
 p {
     color: white;
+}
+
+
+.flex-container {
+    background-color: grey;
+    color: white;
+    position: relative;
+    left: 30px;
+    text-align: justify;
+    width: 60%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 628px;
+    top: 500px;
+
+}
+
+img .home {
+    width: 100%;
 }
