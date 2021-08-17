@@ -59,7 +59,6 @@ footer {
 
 body {
     background-image: url(../images/Home.JPG);
-
     background-size: cover;
     background-repeat: no-repeat;
     min-height: calc(100vh - 50px);
