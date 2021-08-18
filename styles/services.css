@@ -57,7 +57,7 @@ h1 {
     font-family: "Josefin Sans";
     font-weight: 400;
     font-size: 45px;
-    margin-left: -100px;
+    margin-left: -120px;
 
 }
 
@@ -81,12 +81,12 @@ body {
     border-style: solid;
 }
 
-main div p {
+main div {
     font-size: 20px;
     font-family: "Josefin Sans";
     font-weight: 300;
     margin-top: 8px;
-    margin-left: 2px;
+    margin-left: 35px;
 }
 
 
@@ -94,6 +94,10 @@ footer {
     background-color: darkkhaki;
     font-family: "Open Sans Condensed";
     font-weight: 300;
+}
+
+.colr {
+    padding-right: 10px;
 }
 
 
