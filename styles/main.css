@@ -1,29 +1,54 @@
-button.position-absolute {
-    right: 1rem;
-    top: 1rem;
-    z-index: 99;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-nav {
-    background-color: dimgrey;
+li,
+a,
+button {
     font-family: "Open Sans Condensed";
-    font-weight: 300;
-    font-size: 20px;
-
-}
-
-header h1 a.navbar-brand {
-    margin-left: -15px;
-    padding-top: 10px;
-    margin-right: 5px;
-    width: 100%;
+    font-weight: 500;
+    font-size: 25px;
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
     background-color: darkkhaki;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 100px;
+    height: 75px;
+}
+
+.nav_links {
+    list-style: none;
+
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    padding-top: 10px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: grey;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: slategrey;
 }
 
 h1 {
@@ -32,7 +57,7 @@ h1 {
     font-family: "Josefin Sans";
     font-weight: 400;
     font-size: 45px;
-    margin-top: -10px;
+    margin-left: -100px;
 
 }
 
