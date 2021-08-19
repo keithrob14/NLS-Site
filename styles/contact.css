@@ -56,8 +56,10 @@ h1 {
     color: ghostwhite;
     font-family: "Josefin Sans";
     font-weight: 400;
-    font-size: 45px;
+    font-size: 50px;
     margin-left: -120px;
+    margin-top: 20px;
+    ;
 
 }
 
@@ -129,4 +131,5 @@ footer {
     font-weight: 300;
     position: fixed;
     height: 60px;
+    font-size: 15px;
 }
