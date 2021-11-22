@@ -1495,13 +1495,17 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .phone,
+.contact .info .facebook,
+.contact .info .instagram {
   margin-top: 40px;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .phone:hover i,
+.contact .info .facebook:hover i,
+.contact .info .instagram:hover i {
   background: #8fc04e;
   color: #fff;
 }
