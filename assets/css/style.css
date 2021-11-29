@@ -306,6 +306,12 @@ h6 {
   .navbar ul {
     display: none;
   }
+
+  .logo {
+    margin-left: 200px;
+  }
+
+
 }
 
 .navbar-mobile {
