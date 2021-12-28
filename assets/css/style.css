@@ -902,6 +902,10 @@ section {
   opacity: 85%;
 }
 
+.portfolio-btn :hover {
+  color: black;
+}
+
 .portfolio-btn a {
   color: whitesmoke;
 }
@@ -914,7 +918,9 @@ section {
   border-radius: 50px;
 }
 
-.portfolio #portfolio-flters li {
+
+
+.portfolio #portfolio-flters ul {
   cursor: pointer;
   display: inline-block;
   padding: 8px 16px 10px 16px;
@@ -941,12 +947,18 @@ section {
 .portfolio .portfolio-item {
   margin-bottom: 30px;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-item img {
   position: relative;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+}
+
+#portfolio-images :hover {
+  cursor: pointer;
 }
 
 .portfolio .portfolio-item .portfolio-info {
@@ -959,6 +971,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: rgba(148, 135, 64);
   padding: 15px 20px;
+  cursor: pointer;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
