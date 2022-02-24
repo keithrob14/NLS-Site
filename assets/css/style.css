@@ -512,6 +512,7 @@ video#bgvideo {
   transform: translateX(-50%) translateY(-50%);
   background: url(placeholder.jpg) no-repeat;
   background-size: cover;
+  zoom: .9;
 }
 
 /*--------------------------------------------------------------
