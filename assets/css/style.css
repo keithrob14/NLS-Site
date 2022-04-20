@@ -149,10 +149,11 @@ h6 {
 #header .logo img {
 
   margin-left: -287px;
-
   margin-top: 5px;
-
   opacity: 100%;
+  width: 100%;
+  height: auto;
+
 }
 
 .scrolled-offset {
@@ -447,9 +448,9 @@ h6 {
 
 .overlay-text {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
+  font-family: 'Jost', sans-serif;
+  font-size: 100pt;
+  font-weight: 500;
   color: whitesmoke;
 }
 
@@ -505,7 +506,7 @@ video#bgvideo {
   top: 50%;
   left: 50%;
   min-width: 100%;
-  min-height: 100%;
+
   width: auto;
   height: inherit;
   z-index: -100;
