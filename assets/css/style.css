@@ -460,10 +460,16 @@ h6 {
   color: rgba(255, 254, 217, 0.856);
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 768px) {
   .overlay-text {
     font-size: 50px;
+    margin-top: 300px;
   }
+
+  #hero .hero-container {
+    height: 50vh;
+  }
+
 }
 
 #hero h4 {
