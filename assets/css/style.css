@@ -453,6 +453,12 @@ h6 {
   color: rgba(255, 254, 217, 0.856);
 }
 
+@media screen and (max-width: 768px) {
+  .overlay-text {
+    font-size: 50px;
+  }
+}
+
 #hero h4 {
   color: whitesmoke;
   margin-bottom: 35px;
