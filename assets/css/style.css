@@ -600,6 +600,17 @@ section {
   }
 }
 
+@media (max-width: 400px) {
+  #workshop-overlay img {
+    height: 75vh;
+    width: auto;
+  }
+
+  .centered {
+    font-size: 18px;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # About
