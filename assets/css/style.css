@@ -435,6 +435,7 @@ h6 {
 
 #hero {
   height: 75vh;
+
 }
 
 #hero .hero-container {
@@ -448,7 +449,7 @@ h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 0 15px;
+
 }
 
 .overlay-text {
@@ -517,9 +518,8 @@ video#bgvideo {
   top: 50%;
   left: 50%;
   min-width: 100%;
-
   width: 200vw;
-  height: 200vh;
+  height: 175vh;
   z-index: -100;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -527,8 +527,9 @@ video#bgvideo {
   transform: translateX(-50%) translateY(-50%);
   background: url(placeholder.jpg) no-repeat;
   background-size: cover;
-  zoom: .6;
+  zoom: .8;
 }
+
 
 /*--------------------------------------------------------------
 # Sections General
