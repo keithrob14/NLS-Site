@@ -518,8 +518,8 @@ video#bgvideo {
   left: 50%;
   min-width: 100%;
 
-  width: 150vw;
-  height: auto;
+  width: 200vw;
+  height: 200vh;
   z-index: -100;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
@@ -527,7 +527,7 @@ video#bgvideo {
   transform: translateX(-50%) translateY(-50%);
   background: url(placeholder.jpg) no-repeat;
   background-size: cover;
-  zoom: 1.0;
+  zoom: .8;
 }
 
 /*--------------------------------------------------------------
