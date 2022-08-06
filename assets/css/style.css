@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #a7cd74;
+  color: black;
 }
 
 a:hover {
@@ -1940,4 +1940,40 @@ section {
 .col-12 img:hover {
   opacity: 1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*--------------------------------------------------------------
+  # woodshop
+  --------------------------------------------------------------*/
+.woodshop-btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #8fc04e;
+  margin: 0 3px 10px 3px;
+  transition: all ease-in-out 0.3s;
+  background: #8fc04e;
+  border-radius: 50px;
+  border: none;
+  opacity: 85%;
+}
+
+.woodshop-btn:hover {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #8fc04e;
+  margin: 0 3px 10px 3px;
+  transition: all ease-in-out 0.3s;
+  background: #8fc04e;
+  border-radius: 50px;
+  border: none;
+  opacity: 10%;
 }
