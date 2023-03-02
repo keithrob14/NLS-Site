@@ -984,10 +984,10 @@ section {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
-  color: #8fc04e;
+  color: rgba(148, 135, 64);
   margin: 0 3px 10px 3px;
   transition: all ease-in-out 0.3s;
-  background: #8fc04e;
+  background: rgba(148, 135, 64);
   border-radius: 50px;
   border: none;
   opacity: 85%;
