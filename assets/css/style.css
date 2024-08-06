@@ -471,6 +471,11 @@ h6 {
     height: 50vh;
   }
 
+  .iframe {
+    width: 250;
+    height: 250;
+  }
+
 }
 
 #hero h4 {
